@@ -1,0 +1,25 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(135deg, #1014ff, #de08f6); /* blue to purple */
+  border-radius: 12px;
+  box-shadow: 0 15px 60px rgba(17, 21, 250, 1);
+  opacity: 1;
+  transform: scale(0.5);
+  font-weight: bold;
+  color: aliceblue;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.btn {
+  background: linear-gradient(135deg, #ffbf10, #de08f6);
+}
+.toast {
+  background: linear-gradient(135deg, #40ff10, #08d2f6);
+}
+.card {
+  background: linear-gradient(135deg, #3010ff, #08abf6);
+}
