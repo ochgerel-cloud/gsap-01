@@ -14,7 +14,7 @@ const updateIndicator = (target) => {
   console.log("rowBounds.left: ", rowBounds.left);
   console.log(offset);
   gsap.to(indicator, {
-    x: offset - 20,
+    x: offset,
     width: width,
     duration: 0.4,
     ease: "back.out(1.7)",
