@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+body {
+  @apply font-sans m-0 bg-[#111] text-[#eee] overflow-x-hidden text-[2rem];
+}
+section {
+  @apply h-screen flex justify-center items-center;
+}
+
+.pin-container {
+  @apply relative w-full flex justify-center gap-5;
+}
+.circle {
+  @apply w-20 h-20 rounded-full bg-[#0ae448] shrink-0;
+}
+.box {
+  @apply w-24 h-24 bg-[#00bae2] rounded-xl shrink-0 z-10;
+}

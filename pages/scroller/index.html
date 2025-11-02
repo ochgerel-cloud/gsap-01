@@ -7,26 +7,20 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-[#0e0e0e] text-[#f0f0f0] py-[50px] px-[0%] overflow-x-hidden">
-    <main class="h-[2500px] w-screen">
-      <section
-        id="spacer"
-        class="h-screen flex items-center justify-center text-xl"
-      >
-        Scroll down to see the animation
-      </section>
-      <div
-        id="box"
-        class="w-[300px] h-[300px] bg-gradient-to-br from-blue-700 to-cyan-400 rounded-2xl shadow-[0_4px_30px_rgba(99,241,142,0.9)]"
-      ></div>
-      <section
-        id="spacer"
-        class="h-screen flex items-center justify-center text-xl"
-      >
-        Box moves when start hits the starter-marker
-      </section>
-    </main>
+  <body>
+    <section class="spacer">Scroll down to see the pinned box</section>
 
+    <section>
+      <div class="pin-container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="box"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </section>
+
+    <section class="spacer">Scroll back up to see the effect again</section>
     <script type="module" src="script.js"></script>
   </body>
 </html>
