@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+  server: { host: "0.0.0.0", port: 5173 },
   plugins: [tailwindcss()],
   build: {
     rollupOptions: {
